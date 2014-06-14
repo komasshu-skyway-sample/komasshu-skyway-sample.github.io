@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Sunshiney);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Unkempt:700);
+
+body {
+}
+
+a {
+}
+
+
+body {
+}
+h1 {
+	font-family: 'Unkempt';
+	font-size: 60px;
+}
+
+
+.invert {
+	-webkit-filter: invert();
+}
+.bright {
+    -webkit-filter: brightness(100%);
+}
+
+#me {
+  position: absolute;
+  z-index: 99;
+  top: 25%;
+  left: 10%;
+  border: 1px solid gray;
+}
+
+#me form{
+  position: absolute;
+  z-index: 200;
+}
+
+#me video#analyze {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 150;
+	/*display: none;*/
+	-webkit-transform : scaleX(-1);
+	transform : scaleX(-1);
+}
+
+#me canvas#effect {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	z-index: 151;
+	/*display: none;*/
+	-webkit-transform : scaleX(-1);
+	transform : scaleX(-1);
+}
+
+#me canvas#overlay {
+	position:absolute;
+	display: none;
+	z-index: 152;
+	top: 50px;
+	left: 0px;
+	-webkit-transform : scaleX(-1);
+	transform : scaleX(-1);
+}
+
+
+#peer {
+  color: #fff;
+  position: absolute;
+  z-index: 99;
+  top: 25%;
+  right: 10%;
+}
+
+#peer #peer-instrument {
+  height: 50px;
+}
+
+#peer video {
+}
+
+

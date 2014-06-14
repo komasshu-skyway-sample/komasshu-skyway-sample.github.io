@@ -12,8 +12,16 @@ a {
 body {
 }
 h1 {
+  padding: 3px 12px;
 	font-family: 'Unkempt';
+  color: white;
 	font-size: 60px;
+}
+h2 {
+  padding: 2px 16px;
+	font-family: 'Unkempt';
+  color: white;
+	font-size: 1em;
 }
 
 

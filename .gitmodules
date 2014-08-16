@@ -1,3 +1,6 @@
 [submodule "voice-analyzer"]
 	path = voice-analyzer
 	url = https://github.com/komasshu-skyway-sample/voice-analyzer.git
+[submodule "sub/plugins"]
+	path = sub/plugins
+	url = https://github.com/komasshu-skyway-sample/plugins.git
